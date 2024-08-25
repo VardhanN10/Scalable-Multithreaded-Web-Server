@@ -1,0 +1,28 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled static libraries
+*.a
+
+# Compiled dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.out
+*.exe
+
+# Debug files
+*.dSYM/
+
+# IDE specific files
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Build directories
+build/
+bin/
