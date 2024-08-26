@@ -17,6 +17,16 @@ This project implements a high-performance, multi-threaded web server similar to
 - **Thread Pooling**: Efficiently manages tasks with a thread pool to handle concurrent client requests.
 - **Configurable Ports**: Easily configurable ports through a simple configuration file.
 
+### Performance
+**Benchmarking Results:** Achieved an average of 2,481 requests per second with zero failures during ApacheBench tests. The server maintained a mean response time of 20.1 milliseconds under a concurrency level of 50.
+
+
+### Architecture
+
+**Distributed Setup:** The server can run multiple instances simultaneously, with a load balancer distributing incoming traffic across these instances to ensure efficient handling of requests.
+
+**Caching Mechanisms:** Utilizes content caching and dynamic caching strategies to manage frequently requested resources and reduce load times.
+
 ## Getting Started
 
 ### Prerequisites
